@@ -1,0 +1,75 @@
+*{
+    padding: 1px;
+    margin: 0px;
+}
+header{
+    background-image: url("idly2.jpg");
+    height: 100vh;
+    background-repeat:round;
+    background-size:cover;
+    background-position: center;
+    
+}
+.main{
+    max-width: 1100px;
+    margin: auto;
+}
+ul{
+    list-style-type:none;
+    float: right;
+    margin-top: 25px;
+    color: black;
+}
+ul li{
+    display: inline-block;
+    border: 1px solid transparent;
+    color: black;
+}
+ul li a{
+    color:black;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    
+}
+ul li a:hover{
+    background-color: azure;
+    color: black;
+    transition: 0.6s ease;
+}
+.active{
+    background-color: bisque;
+    color:coral;
+}
+logo.img{
+    margin-top: 25px;
+}
+.center_text{
+     margin-top: 250px;
+     margin-left: 650px;
+}
+h1{
+    color: orange;
+}
+#bt1{
+    border:1px solid wheat;
+    color: aliceblue;
+    padding: 5px;
+    text-decoration:none;
+}
+#bt2{
+    border:1px solid tomato;
+    color: aliceblue;
+    padding: 5px;
+    text-decoration:none;
+}
+#bt1:hover{
+    background-color:wheat;
+    color: rebeccapurple;
+    transition: 0.6s ease;
+}
+#bt2:hover{
+    background-color:wheat;
+    color: rebeccapurple;
+    transition: 0.6s ease;
+}
